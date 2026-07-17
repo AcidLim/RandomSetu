@@ -20,10 +20,8 @@ import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.DeleteSweep
-import androidx.compose.foundation.clickable
 import kotlinx.coroutines.launch
 import com.acid.setu.R
 
@@ -114,7 +112,7 @@ fun SetuScreen(
                         shape = MaterialTheme.shapes.medium,
                         color = MaterialTheme.colorScheme.surfaceVariant,
                         modifier = Modifier.clickable {
-                            uriHandler.openUri("https://github.com/YourGitHubName")  //
+                            uriHandler.openUri("https://github.com/AcidLim/RandomSetu")
                         }
                     ) {
                         Row(
